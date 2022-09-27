@@ -9,27 +9,13 @@ class homePage extends Component {
         }
     }
 
-    componentDidMount() {
-        fetch('http://api.tvmaze.com/shows')
-            .then(res => res.json())
-            .then(json => {
-                this.setState({
-
-                    items: json
-
-                })
-            });
-    }
-
+   
     updateSearch(event) {
         this.setState({ search: event.target.value });
     }
 
     render() {
-        var { items } = this.state;
-        let filteredSeries = items.filter((item) => {
-            return item.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
-        });
+        
         return (
             <div>
                 <nav class="navbar fixed-top">
