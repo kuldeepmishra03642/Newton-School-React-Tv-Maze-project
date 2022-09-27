@@ -1,0 +1,77 @@
+
+body {
+   
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8;
+    padding-top: 10px;
+}
+.navbar{
+  background : linear-gradient(rgb(31, 200, 252), rgb(244, 169, 247) ) 
+}
+.image-size{
+  padding-top : 5px;
+  padding-bottom: 5px;
+}
+.search{
+  border-radius: 2rem ;
+  width: 100%;
+  margin-top: 11px;
+  padding: 3px;
+    border: 2px solid #1ed8bd;
+}
+
+.search-body{
+  margin-left: 20px;
+}
+.main_body{
+  margin-top: 85px;
+}
+.information{
+  border: 1px solid royalblue;
+  margin-top: 20px;
+  background: #f1ecec;
+}
+.main_info{
+  padding-top: 15px;
+}
+.readMoreButton{
+  margin-bottom: 20px;
+}
+.readmore_button_div{
+  margin-top: 10px;
+}
+span {
+ color: #19a291;
+ font-weight : bold;
+}
+.container .row .col-sm-3 {
+  padding-left: 0px;
+}
+.col-sm-9 p{
+  margin-bottom: 0px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
