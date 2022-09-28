@@ -12,7 +12,7 @@ class homePage extends Component {
     }
 
     componentDidMount() {
-        fetch('http://api.tvmaze.com/shows')
+        fetch('https://api.tvmaze.com/shows')
             .then(res => res.json())
             .then(json => {
                 this.setState({
@@ -34,7 +34,7 @@ class homePage extends Component {
         });
         return (
             <div>
-                <nav class="navbar fixed-top">
+                <nav className="navbar fixed-top">
                     <div className="container">
                         <div className="row ">
                             <div className=" col-sm-4">
