@@ -70,7 +70,7 @@ class homePage extends Component {
                                                 starCount={10}
                                                 value={item.rating.average}
                                             /><br></br>
-                                            <span>Summary: </span>{item.summary}<br></br>
+                                            <span>Summary: </span>{item.summary.replace(/(<([^>]+)>)/ig, '')}<br></br>
                                             <Readmore item={item} />
                                         </div>
                                     </div>
